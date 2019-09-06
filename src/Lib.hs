@@ -1,8 +1,3 @@
-module Lib
-    ( d
-    )
-where
+module Lib () where
 
 
-d :: Int
-d = 1
