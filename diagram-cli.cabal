@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 50f63c50cd6483de7e00e7e2780ff3a1b94ec8f377d20b76c0a395add7aa617a
+-- hash: f10637f8ebf7ca62803fd06f1ba54c7d3d5041a43eb7529fdb88a8b3538a5267
 
 name:           diagram-cli
 version:        0.1.0.0
@@ -34,6 +34,7 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , gloss
   default-language: Haskell2010
 
 executable diagram-cli
@@ -46,6 +47,7 @@ executable diagram-cli
   build-depends:
       base >=4.7 && <5
     , diagram-cli
+    , gloss
   default-language: Haskell2010
 
 test-suite diagram-cli-test
@@ -59,4 +61,5 @@ test-suite diagram-cli-test
   build-depends:
       base >=4.7 && <5
     , diagram-cli
+    , gloss
   default-language: Haskell2010
